@@ -1,0 +1,20 @@
+ 
+         
+         
+			<div class="span10">	
+      		<div class="hero-unit">   
+    		<div class="content">
+      		<div class="row">
+			
+				<p>UserId: ${profile.userId}</p>
+				<p>Email: ${profile.email}</p>
+				<p>mobile: ${profile.mobile}</p>
+				<p>Gender: ${profile.gender}</p>
+				<p>Address: ${profile.address}</p>
+				
+				<p>City: ${profile.city}</p>
+			</div>
+			</div>		
+			</div>
+			</div>
+		

@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Your Amazon.com!</title>
+   
+    <meta charset= "utf-8">
+    <link  rel="stylesheet" type="text/css"  href="resources/css/bootstrap.css" >
+    <link href="http//datatables.net/download/build/nightly/jquery.dataTables.css" rel="stylesheet" type="text/css" />   
+	</head>
+    <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="resources/js/jqBootstrapValidation.js"></script>	
+    <script src="http//datatables.net/download/build/nightly/jquery.dataTables.js"></script>
+  
+              
+        <div class="container">
+        
+        <h2 style="color: SteelBlue; margin-left:30px;">Your Amazon.com!</h2>
+		<div align="right" style="font-style: italic;color: #C00000; ">
+		  <p>Welcome ${profile.firstName}</p>
+		</div>
+        	
+		
+			
+		<div class="navbar">
+              <div class="navbar-inner">
+                <div class="container">
+                  <ul class="nav">
+                    <li class="active">
+                    </ul>
+                  <ul class="nav pull-right">
+      				<li><a href="logout.htm" style="font-style: italic;color: green;" >Logout</a></li>
+      			  </ul>
+                </div>
+              </div>
+            </div>
+         	
+     <div class="row">
+         <div class="span2">
+             	<ul class="nav nav-list">
+    </ul>
+         </div>
+        
+		<h3 style = "margin-left:50px">User Profile</h3>
+        $screen_content
+
+        
+  </div>
+	</div>
+
+       
+
+    </body>
+</html>
